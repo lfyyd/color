@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "color.test_case",
+    "children" : [ {
+      "name" : "test_case1",
+      "children" : [ {
+        "name" : "TestColor",
+        "children" : [ {
+          "name" : "test_01[udata0]",
+          "uid" : "4a7caf7aa66d168f",
+          "parentUid" : "7bd47e2572b4b811a8b2f4d829c890f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1654749234318,
+            "stop" : 1654749235377,
+            "duration" : 1059
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'admin', 'password': 123456}" ]
+        }, {
+          "name" : "test_02[udata0]",
+          "uid" : "5433e881153a07f3",
+          "parentUid" : "7bd47e2572b4b811a8b2f4d829c890f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1654749235380,
+            "stop" : 1654749235953,
+            "duration" : 573
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': 'test', 'l': 1, 'a': 2, 'b': 3}" ]
+        } ],
+        "uid" : "7bd47e2572b4b811a8b2f4d829c890f0"
+      } ],
+      "uid" : "400c957163b501efa87a9382d71c3f54"
+    } ],
+    "uid" : "91ca6a350e966a01b91753929a1e3b02"
+  } ]
+}

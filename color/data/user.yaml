@@ -1,0 +1,15 @@
+-
+  usr: admin
+  pwd: 123456
+  assert: 登录成功
+-
+  usr: admin
+  pwd: 12345
+  assert: 账号或密码错误
+-
+  usr: ''
+  pwd: ''
+  assert: 请输入账号
+
+
+

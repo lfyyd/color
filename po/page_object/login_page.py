@@ -1,0 +1,21 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+from po.base.base_page import BasePage
+
+
+class LoginPage(BasePage):
+    url = 'http://192.168.3.20:9010/#/user/login'
+    user = (By.ID, 'userName')
+    word = (By.ID, 'password')
+    btn = (By.XPATH, '//*[text()="登 录"]')
+    time = '10'
+
+    def login(self, username, password):
+        self.geturl(self.url)
+        self.input(self.user, username)
+        self.input(self.word, password)
+        self.click(self.btn)
+
+
+

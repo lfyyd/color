@@ -1,0 +1,7 @@
+pytest~=7.1.2
+pytest-html
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures
+allure-pytest
+selenium~=4.1.5
