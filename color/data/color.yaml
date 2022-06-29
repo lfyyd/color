@@ -22,10 +22,5 @@
   a: 2
   b: ''
   assert: 请输入b值
--
-  name: test
-  l: 1
-  a: 2
-  b: 3
-  assert: 添加成功
+
 

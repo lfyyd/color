@@ -1,3 +1,5 @@
+from time import sleep
+
 import pytest
 from selenium import webdriver
 
@@ -10,8 +12,9 @@ from color.page_object.color_page import ColorPage
 def driver():
     driver = webdriver.Chrome()
     lp = LoginPage(driver)
-    lp.login('admin','123456')
+    lp.login('admin', '123456')
     yield driver
+    sleep(1)
     driver.quit()
 
 
