@@ -34,5 +34,3 @@ class BasePage:
     def wait(self, loc):
         WebDriverWait(self.driver, 10, 0.5).until(lambda el: self.locator(loc))
 
-    def alert(self):
-        self.driver.switch_to.alert.accept()
