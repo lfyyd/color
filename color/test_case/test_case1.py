@@ -14,7 +14,6 @@ def driver():
     lp = LoginPage(driver)
     lp.login('admin', '123456')
     yield driver
-    sleep(1)
     driver.quit()
 
 

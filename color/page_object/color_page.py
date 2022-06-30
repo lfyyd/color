@@ -25,5 +25,5 @@ class ColorPage(BasePage):
         self.input(self.a, a)
         self.input(self.b, b)
         self.click(self.btn)
-        self.jietu()
+        # self.jietu()
 
