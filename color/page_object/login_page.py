@@ -16,4 +16,5 @@ class LoginPage(BasePage):
         self.input(self.user, username)
         self.input(self.word, password)
         self.click(self.btn)
+        self.jietu()
 

@@ -1,5 +1,6 @@
 from time import sleep
 
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -8,6 +9,8 @@ class BasePage:
     def __init__(self, driver):
         self.driver = driver
         self.driver.maximize_window()
+        # img = self.driver.get_screenshot_as_png()
+        # allure.attach(img, f'po实例化')
 
     def geturl(self, url):
         self.driver.get(url)
@@ -34,3 +37,6 @@ class BasePage:
     def wait(self, loc):
         WebDriverWait(self.driver, 10, 0.5).until(lambda el: self.locator(loc))
 
+    def jietu(self):
+        img = self.driver.get_screenshot_as_png()
+        allure.attach(img, f'截图')

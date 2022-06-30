@@ -1,4 +1,4 @@
-
+from time import sleep
 
 from color.base.base_page import BasePage
 from selenium.webdriver.common.by import By
@@ -25,4 +25,5 @@ class ColorPage(BasePage):
         self.input(self.a, a)
         self.input(self.b, b)
         self.click(self.btn)
+        self.jietu()
 
