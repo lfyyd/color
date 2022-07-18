@@ -19,6 +19,7 @@ def driver():
 
 @pytest.mark.parametrize('udata', loadyaml('./color/data/user.yaml'))
 def test_01(udata):
+    "登录用例"
     driver = webdriver.Chrome()
     lp = LoginPage(driver)
     lp.login(udata['usr'], udata['pwd'])
@@ -29,6 +30,7 @@ def test_01(udata):
 @pytest.mark.smoke
 @pytest.mark.parametrize('udata', loadyaml('./color/data/color.yaml'))
 def test_02(udata, driver):
+    "添加色彩用例"
     cr = ColorPage(driver)
     cr.color(udata['name'], udata['l'], udata['a'], udata['b'])
     ast = cr.asser()

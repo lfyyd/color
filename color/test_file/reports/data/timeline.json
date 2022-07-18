@@ -1,0 +1,104 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-UAP2N13R",
+    "children" : [ {
+      "name" : "57232-MainThread",
+      "children" : [ {
+        "name" : "test_02[udata0]",
+        "uid" : "90e95a60b72ced74",
+        "parentUid" : "b8ec85e014e083b8d99a61eb4a18f203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656645129131,
+          "stop" : 1656645131231,
+          "duration" : 2100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '', 'l': '', 'a': '', 'b': '', 'assert': '请输入色彩名称'}" ]
+      }, {
+        "name" : "test_02[udata3]",
+        "uid" : "8b220574fd45c207",
+        "parentUid" : "b8ec85e014e083b8d99a61eb4a18f203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656645132316,
+          "stop" : 1656645132901,
+          "duration" : 585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'test', 'l': 1, 'a': 2, 'b': '', 'assert': '请输入b值'}" ]
+      }, {
+        "name" : "test_02[udata2]",
+        "uid" : "8a89a0c5ac6ae8cb",
+        "parentUid" : "b8ec85e014e083b8d99a61eb4a18f203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656645131775,
+          "stop" : 1656645132313,
+          "duration" : 538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'test', 'l': 1, 'a': '', 'b': '', 'assert': '请输入a值'}" ]
+      }, {
+        "name" : "test_01[udata1]",
+        "uid" : "1f449a47e975cd10",
+        "parentUid" : "b8ec85e014e083b8d99a61eb4a18f203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656645115602,
+          "stop" : 1656645121390,
+          "duration" : 5788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'usr': 'admin', 'pwd': 12345, 'assert': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_01[udata2]",
+        "uid" : "19d4354b55c5d7ee",
+        "parentUid" : "b8ec85e014e083b8d99a61eb4a18f203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656645121392,
+          "stop" : 1656645126665,
+          "duration" : 5273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'usr': '', 'pwd': '', 'assert': '请输入账号'}" ]
+      }, {
+        "name" : "test_02[udata1]",
+        "uid" : "72c9d07d61a4f7b5",
+        "parentUid" : "b8ec85e014e083b8d99a61eb4a18f203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656645131234,
+          "stop" : 1656645131773,
+          "duration" : 539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'test', 'l': '', 'a': '', 'b': '', 'assert': '请输入L值'}" ]
+      }, {
+        "name" : "test_01[udata0]",
+        "uid" : "6c7443fe00f35c96",
+        "parentUid" : "b8ec85e014e083b8d99a61eb4a18f203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656645110191,
+          "stop" : 1656645115600,
+          "duration" : 5409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'usr': 'admin', 'pwd': 123456, 'assert': '登录成功'}" ]
+      } ],
+      "uid" : "b8ec85e014e083b8d99a61eb4a18f203"
+    } ],
+    "uid" : "a1e882dd97486e2b5fca80de2d66dd29"
+  } ]
+}

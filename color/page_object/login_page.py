@@ -6,7 +6,7 @@ from color.base.base_page import BasePage
 
 
 class LoginPage(BasePage):
-    url = 'http://192.168.32.120:8085/#/user/login/'
+    url = 'http://192.168.3.20:8065/#/user/login/'
     user = (By.ID, 'username')
     word = (By.ID, 'password')
     btn = (By.XPATH, '//*[text()="登 录"]')

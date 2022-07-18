@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 01 11:12:09 CST 2022","Fri Jul 01 11:12:11 CST 2022","2100","color.test_case","test_case1","","","","test_02[udata0]","添加色彩用例"
+"passed","Fri Jul 01 11:12:11 CST 2022","Fri Jul 01 11:12:11 CST 2022","539","color.test_case","test_case1","","","","test_02[udata1]","添加色彩用例"
+"passed","Fri Jul 01 11:12:01 CST 2022","Fri Jul 01 11:12:06 CST 2022","5273","color.test_case","test_case1","","","","test_01[udata2]","登录用例"
+"passed","Fri Jul 01 11:12:11 CST 2022","Fri Jul 01 11:12:12 CST 2022","538","color.test_case","test_case1","","","","test_02[udata2]","添加色彩用例"
+"passed","Fri Jul 01 11:11:50 CST 2022","Fri Jul 01 11:11:55 CST 2022","5409","color.test_case","test_case1","","","","test_01[udata0]","登录用例"
+"passed","Fri Jul 01 11:12:12 CST 2022","Fri Jul 01 11:12:12 CST 2022","585","color.test_case","test_case1","","","","test_02[udata3]","添加色彩用例"
+"passed","Fri Jul 01 11:11:55 CST 2022","Fri Jul 01 11:12:01 CST 2022","5788","color.test_case","test_case1","","","","test_01[udata1]","登录用例"

@@ -1,0 +1,14 @@
+
+userinfo: &userinfo
+    user: lf
+    email: 2895074613@qq.com
+test1:
+   name: testcase 1
+   data:
+       <<: *userinfo
+       tel: 12345678901
+test2:
+    name: testcase 2
+    data:
+        <<: *userinfo
+        tel: 15201234023
