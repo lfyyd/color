@@ -1,11 +1,13 @@
-import requests
 import pytest
+import requests
 
 
+# 药品
 class TestApi1:
     cookie = ""
     id = ""
 
+    @pytest.mark.smoke
     def test_login(self):
         urls = 'http://127.0.0.1/api/mgr/signin'
         datas = {
@@ -17,6 +19,7 @@ class TestApi1:
         TestApi1.cookie = result.cookies
         print(result.json())
 
+    @pytest.mark.smoke
     def test_creapt(self):
         urls = 'http://127.0.0.1/api/mgr/medicines'
         datas = {
@@ -57,6 +60,7 @@ class TestApi1:
         result = requests.delete(url=urls, json=datas, cookies=TestApi1.cookie)
         print(result.json())
 
+    @pytest.mark.smoke
     def test_client(self):
         urls = 'http://127.0.0.1/api/mgr/medicines'
         params = {
@@ -64,11 +68,8 @@ class TestApi1:
             "pagenum": "1",
             "pagesize": "5",
             "keywords": "",
-            "_": "1659409989246"
+            "_": "1659424270591"
         }
 
         result = requests.get(url=urls, params=params, cookies=TestApi1.cookie)
         print(result.json())
-
-
-
