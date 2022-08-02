@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac5b22a-1878-4fb2-9f23-3b4e82f03c13" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/request/commons/send_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request/data/login.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request/data/opne_yaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request/stady_request/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request/stady_request/aa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request/stady_request/test_apt2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requests/requests_stady/test_api1.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests/requests_stady/test_api1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requests/requests_stady/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/request/commons/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requests/requests_stady/test_api1.py" beforeDir="false" afterPath="$PROJECT_DIR$/request/stady_request/test_api1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +41,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../python/Lib/site-packages/requests/api.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,11 +59,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/git/study_git/run.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RunManager" selected="Python.run">
-    <configuration name="装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="JBen.python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stady" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/request/stady_request" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stady/装饰器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/request/stady_request/aa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="load_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="opne_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="JBen.python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +95,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stady" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/request/data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stady/load_yaml.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/request/data/opne_yaml.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,45 +129,45 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest (test_api1.py 内)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="request.stady_request.test_api1.TestApi1.test_client 的 pytest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="JBen.python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests/requests_stady" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/request/stady_request" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/requests/requests_stady/test_api1.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;request.stady_request.test_api1.TestApi1.test_client&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_api1.TestApi1.test_client 的 pytest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="test_api1.TestApi1.test_login 的 pytest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="JBen.python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests/requests_stady" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/request/stady_request" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api1.TestApi1.test_client&quot;" />
+      <option name="_new_target" value="&quot;test_api1.TestApi1.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
-        <item itemvalue="Python 测试.test_api1.TestApi1.test_client 的 pytest" />
-        <item itemvalue="Python 测试.pytest (test_api1.py 内)" />
-        <item itemvalue="Python.装饰器" />
-        <item itemvalue="Python.load_yaml" />
+        <item itemvalue="Python.aa" />
+        <item itemvalue="Python 测试.test_api1.TestApi1.test_login 的 pytest" />
+        <item itemvalue="Python.opne_yaml" />
+        <item itemvalue="Python 测试.request.stady_request.test_api1.TestApi1.test_client 的 pytest" />
       </list>
     </recent_temporary>
   </component>

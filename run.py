@@ -1,12 +1,12 @@
 import pytest
 import os
+#
+# if __name__ == '__main__':
+#     pytest.main()
+
 
 if __name__ == '__main__':
-    pytest.main()
-
-
-# if __name__ == '__main__':
-#     pytest.main(['-m','smoke'])
+    pytest.main(['-m','smoke'])
 
 # if __name__ == '__main__':
 #     pytest.main(['--alluredir','./color/test_file/allure_results'])

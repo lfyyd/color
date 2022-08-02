@@ -1,25 +1,22 @@
 import pytest
-import requests
-
+from request.commons.send_request import send
 
 # 药品
+from request.data.opne_yaml import read_yaml
+
+
 class TestApi1:
-    cookie = ""
     id = ""
 
     @pytest.mark.smoke
-    def test_login(self):
-        urls = 'http://127.0.0.1/api/mgr/signin'
-        datas = {
-            "username": "byhy",
-            "password": "88888888"
-        }
-
-        result = requests.post(url=urls, data=datas)
-        TestApi1.cookie = result.cookies
+    @pytest.mark.parametrize("data", read_yaml('../data/login.yaml'))
+    def test_login(self, data):
+        urls = data[0]["request"]["url"]
+        datas = data[0]["request"]["datas"]
+        method = data[0]["request"]["method"]
+        result = send().send_requsts(method=method, url=urls, data=datas)
         print(result.json())
 
-    @pytest.mark.smoke
     def test_creapt(self):
         urls = 'http://127.0.0.1/api/mgr/medicines'
         datas = {
@@ -31,7 +28,7 @@ class TestApi1:
             }
         }
 
-        result = requests.post(url=urls, json=datas, cookies=TestApi1.cookie)
+        result = send().send_requsts("post", url=urls, json=datas)
         TestApi1.id = result.json()['id']
         print(result.json())
 
@@ -47,7 +44,7 @@ class TestApi1:
             }
         }
 
-        result = requests.put(url=urls, json=datas, cookies=TestApi1.cookie)
+        result = send().send_requsts("put", url=urls, json=datas)
         print(result.json())
 
     def test_delect(self):
@@ -57,10 +54,9 @@ class TestApi1:
             "id": TestApi1.id
         }
 
-        result = requests.delete(url=urls, json=datas, cookies=TestApi1.cookie)
+        result = send().send_requsts("delete", url=urls, json=datas)
         print(result.json())
 
-    @pytest.mark.smoke
     def test_client(self):
         urls = 'http://127.0.0.1/api/mgr/medicines'
         params = {
@@ -71,5 +67,5 @@ class TestApi1:
             "_": "1659424270591"
         }
 
-        result = requests.get(url=urls, params=params, cookies=TestApi1.cookie)
+        result = send().send_requsts("get", url=urls, params=params)
         print(result.json())

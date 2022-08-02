@@ -1,0 +1,8 @@
+- name: 登录
+  request:
+    method: post
+    url: http://127.0.0.1/api/mgr/signin
+    datas:
+      username: byhu
+      password: "88888888"
+  validata: None
